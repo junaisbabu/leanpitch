@@ -1,0 +1,10 @@
+.playlists-container {
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+}
+
+.playlists-container h1 {
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}

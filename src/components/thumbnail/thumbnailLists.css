@@ -1,0 +1,14 @@
+.thumbnail-lists {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+.thumbnail-lists::-webkit-scrollbar {
+  display: none;
+}
+
+.thumbnail-lists > * {
+  margin-right: 30px;
+}

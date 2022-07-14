@@ -1,0 +1,43 @@
+.eventPage-container {
+    text-align: center;
+    padding: 30px;
+}
+
+.eventPage-container > h1 {
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    /* padding: 3% 0; */
+}
+
+.eventPage-container .eventPage-content {
+    padding: 0px 0px 20px 0px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.eventPage-container .top-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eventPage-container .top-sec > .filter-toggle {
+    background-color: white;
+    height: 25px;
+    font-size: 12px;
+    padding: 0 15px;
+    border: 1px solid black;
+}
+
+.eventPage-container .top-sec > .filter-toggle > .bi {
+    margin-right: 10px;
+}
+
+
+@media (max-width: 400px) {
+    .eventPage-container .top-sec > .filter-toggle {
+        display: none;
+    }
+}
+

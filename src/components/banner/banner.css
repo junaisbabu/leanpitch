@@ -1,0 +1,46 @@
+.banner-container {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: 10%;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.banner-container .banner-items {
+    list-style: none;
+    color: white;
+    padding-top: 3%;
+}
+
+
+.banner-container .banner-items li > h1 {
+    line-height: 42px;
+    font-size: 32px;
+}
+
+.banner-container .right-sec {
+    height: 85%;
+    display: none;
+    border: 3px solid gold;
+    position: relative;
+    top: 1%;
+}
+
+.banner-container .right-sec h1 {
+    color: white;
+}
+
+.banner-container .right-sec p {
+    color: white;
+}
+
+
+@media (max-width: 400px) {
+    .banner-container .banner-items li > h1 {
+        line-height: 30px;
+        font-size: 18px;
+    }
+}

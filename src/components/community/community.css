@@ -1,0 +1,91 @@
+.community-container {
+    background-color: aliceblue;
+}
+
+.community-container .container-fluid {
+    background-color: black;
+    height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.community-container .container-fluid .top-sec {
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.community-container .container-fluid .top-sec h1 {
+    font-size: 60px;
+    color: gold;
+}
+
+.community-container .container-fluid .top-sec img {
+    position: relative;
+    left: 9%;
+    width: 250px;
+}
+
+.community-container .center-content .left-sec h1 {
+    font-size: 60px;
+}
+
+.community-container .center-content p {
+    font-size: 20px;
+}
+
+.community-container .center-content {
+    color: white;
+}
+
+.community-container .center-content {
+    margin: 0 50px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+
+.community-container .center-content .right-sec img {
+    width: 95%;
+    float: right;
+}
+
+.community-container .container-fluid .bottom-sec {
+    text-align: center;
+}
+
+.community-container .container-fluid .bottom-sec button {
+    border: 1px solid snow;
+    border-radius: 30px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 100;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.community-container .container-fluid .bottom-sec button > .bi {
+    margin: 0px 0px 0px 10px;
+}
+
+@media (max-width: 400px) {
+    .community-container .container-fluid .bottom-sec button {
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width: 470px) {
+    .community-container .container-fluid .top-sec img {
+        width: 50%;
+    }
+    .community-container .center-content .left-sec h1 {
+        font-size: 30px;
+    }
+    .community-container .center-content p {
+        font-size: 16px;
+    }
+    .community-container .center-content .right-sec img {
+        width: 100%;
+    }
+    
+}

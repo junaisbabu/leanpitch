@@ -1,0 +1,35 @@
+.header-container {
+    background-color: #323232;
+    color: white;
+}
+.header-container .nav-container .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container .left-sec img {
+    width: 60px;
+}
+
+.nav-container .container-fluid .left-sec > span, .right-sec > span {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.nav-container .container-fluid .right-sec {
+    padding-right: 10px;
+}
+
+.nav-container .container-fluid .right-sec > span {
+    padding: 22px 20px;
+
+}
+
+.nav-container .container-fluid .right-sec > span:nth-of-type(1) {
+    background-color: red;
+}
+
+.nav-container .container-fluid .right-sec span:nth-child(1) {
+    /* margin-right: 10px; */
+}

@@ -1,0 +1,38 @@
+.conference-container {
+    background-color: black;
+    text-align: center;
+    padding: 50px 40px;
+}
+
+.conference-container h1 {
+    color: white;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.conference-container .para-container p {
+    font-size: 23px;
+    color: white;
+}
+
+.conference-container > .notify-me {
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    border-radius: 30px;
+    padding: 5px 25px;
+    margin-top: 2%;
+}
+
+.conference-container > .notify-me .bi {
+    margin-left: 10px;
+}
+
+@media (max-width: 400px) {
+    .conference-container h1 {
+    font-size: 40px;
+    }
+    .conference-container .para-container p {
+        font-size: 18px;
+    }
+}
